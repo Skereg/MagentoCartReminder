@@ -1,0 +1,13 @@
+<!--@subject {{trans "Oops! You still have items in your shopping cart"}} @-->
+
+{{template config_path="design/email/header_template"}}
+
+<p class="greeting">{{trans "Hello, <b>%customer_name</b>" customer_name=$customer|row}}</p>
+
+<p>{{trans 'Looks like you forgot something in your cart. Check it out now:'|row}}</p>
+
+<p>{{var items}}</p>
+
+<a href="http://localhost/magento2/pub/checkout/cart/" target="_blank"><button>View cart</button></a>
+
+{{template config_path="design/email/footer_template"}}
