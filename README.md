@@ -1,1 +1,1 @@
-NOthing to see here, just a project i made while learning magento. Cron functionality isn't guaranteed.
+NOthing to see here, just a project i made while learning magento. Cron functionality isn't guaranteed. Would be nice to add product images to mail but thats seems to be impossible in localhost due to images has to be hosted somewhere accessible wia internet
